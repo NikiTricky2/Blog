@@ -5,8 +5,8 @@
     
     <entry>
       <title>my-projects</title>
-      <link href="/2021/06/17/my-projects/"/>
-      <url>/2021/06/17/my-projects/</url>
+      <link href="/Blog/2021/06/17/my-projects/"/>
+      <url>/Blog/2021/06/17/my-projects/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -18,8 +18,8 @@
     
     <entry>
       <title>Hello World!</title>
-      <link href="/2021/06/15/hello-world/"/>
-      <url>/2021/06/15/hello-world/</url>
+      <link href="/Blog/2021/06/15/hello-world/"/>
+      <url>/Blog/2021/06/15/hello-world/</url>
       
         <content type="html"><![CDATA[<p>Hello! I’m NikiTricky and, this is my new blog. I heavily got inspired by <a href="http://vis4.net/blog/2017/10/goodbye-wordpress/">this blog post</a> and here it is! This took 10+ hours to make, so please consider sharing.</p><h2 id="writing"><a class="markdownIt-Anchor" href="#writing"></a> Writing</h2><p>I’ll write about:</p><ul><li>Programming</li><li>Cooking</li><li>Other random stuff</li></ul><h2 id="how-did-i-make-this"><a class="markdownIt-Anchor" href="#how-did-i-make-this"></a> How did I make this?</h2><p>After seeing the post, I just knew that I wanted to make a blog and experiment with Heroku. So, I started with a Heroku account and experimented a bit. I had to install Git and the Heroku CLI. After some testing, I got a Hello World example going. Then I used the <a href="https://github.com/probberechts/hexo-theme-cactus">Cactus 🌵</a> theme and <code>markdown-it-plus</code> and <code>hexo-generator-search</code>.</p><h3 id="the-problem"><a class="markdownIt-Anchor" href="#the-problem"></a> The problem</h3><p>Yep. Always. Hexo generates a static webpage (this was a humongous oversight), so Heroku was not what will work. So I tried GitHub pages, but the files were empty. So in the end I settled on <em>InfinityFreeApp</em>. And here it is.</p>]]></content>
       
