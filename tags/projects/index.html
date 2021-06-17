@@ -8,13 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
     <meta name="description" content="A small blog where i share random things">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Search">
-<meta property="og:url" content="https://nikitricky2.github.io/Blog/search/index.html">
+<meta property="og:title" content="NikiTricky&#39;s Blog">
+<meta property="og:url" content="https://nikitricky2.github.io/Blog/tags/projects/index.html">
 <meta property="og:site_name" content="NikiTricky&#39;s Blog">
 <meta property="og:description" content="A small blog where i share random things">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-06-15T13:32:43.273Z">
-<meta property="article:modified_time" content="2021-06-15T13:32:43.273Z">
 <meta property="article:author" content="Nikitricky">
 <meta property="article:tag" content="blog, NikiTricky, small">
 <meta name="twitter:card" content="summary">
@@ -37,7 +35,7 @@
       
     
     <!-- title -->
-    <title>Search</title>
+    <title>Tag: projects</title>
     <!-- styles -->
     
 <link rel="stylesheet" href="/Blog/css/style.css">
@@ -87,22 +85,43 @@
 </header>
 
         
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <div id="archive">
+  <ul class="post-list">
+    
+    
+    
+    
+      
+      
+      
+      
+        <li class="post-year"><h2>2021</h2></li>
+      
+      <li class="post-item">
+        
+    <div class="meta">
+      
+        
+          <time datetime="2021-06-17T06:50:45.000Z" itemprop="datePublished">2021-06-17</time>
+        
+      
+    </div>
+
+
+        <span>
+    
+        <a class="" href="/Blog/2021/06/17/my-projects/">My projects</a>
     
 
-        <div class="content" itemprop="articleBody">
-            
-                <section id="search">
-  <form>
-    <input type="text" class="search-input" id="search-input" placeholder="Search...">
-  </form>
-  <div id="search-result"></div>
-  <p class="search-no-result">No results found.</p>
-</section>
 
-                    
-        </div>
-</article>
+</span>
+      </li>
+    
+  </ul>
+  
+
+</div>
+
         
         <footer id="footer">
   <div class="footer-left">
@@ -151,47 +170,6 @@
 
                                                                                 <!-- search -->
                                                                                 
-                                                                                    
-<script src="/Blog/js/search.js"></script>
-
-                                                                                        <script type="text/javascript">
-                                                                                            $(function() {
-
-                                                                                                var $inputArea = $("input#search-input");
-                                                                                                var $resultArea = document.querySelector("div#search-result");
-
-                                                                                                $inputArea.focus(function() {
-                                                                                                    var search_path = "search.xml";
-                                                                                                    if (search_path.length == 0) {
-                                                                                                        search_path = "search.xml";
-                                                                                                    }
-                                                                                                    var path = "/Blog/" + search_path;
-                                                                                                    searchFunc(path, 'search-input', 'search-result');
-                                                                                                });
-
-                                                                                                $inputArea.keydown(function(e) {
-                                                                                                    if (e.which == 13) {
-                                                                                                        e.preventDefault();
-                                                                                                    }
-                                                                                                });
-
-                                                                                                var observer = new MutationObserver(function(mutationsList, observer) {
-                                                                                                    if (mutationsList.length == 1) {
-                                                                                                        if (mutationsList[0].addedNodes.length) {
-                                                                                                            $(".search-no-result").hide();
-                                                                                                        } else if (mutationsList[0].removedNodes.length) {
-                                                                                                            $(".search-no-result").show(200);
-                                                                                                        }
-                                                                                                    }
-                                                                                                });
-
-                                                                                                observer.observe($resultArea, {
-                                                                                                    childList: true
-                                                                                                });
-
-                                                                                            });
-                                                                                        </script>
-                                                                                        
                                                                                             <!-- Google Analytics -->
                                                                                             
                                                                                                     <!-- Baidu Analytics -->

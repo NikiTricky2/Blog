@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>My projects</title>
+      <link href="/Blog/2021/06/17/my-projects/"/>
+      <url>/Blog/2021/06/17/my-projects/</url>
+      
+        <content type="html"><![CDATA[<p>This post is to catch up on all my recent projects.</p><h2 id="reactshoppingtemplate"><a class="markdownIt-Anchor" href="#reactshoppingtemplate"></a> ReactShoppingTemplate</h2><p>The title says it all. You can <a href="https://reactshoppingtemplate.nikitricky2.repl.co/">see it here</a>. In this project, I improved my React and NodeJS skills.</p><h2 id="menuplanner"><a class="markdownIt-Anchor" href="#menuplanner"></a> MenuPlanner</h2><p>There is a lot of spaghetti code in there. But the basics are: you create a menu, the app adds it into a MySQLi database and you get a Link, where you can see the menu.</p><h2 id="translateapp"><a class="markdownIt-Anchor" href="#translateapp"></a> TranslateApp</h2><p>A simple Tkinter app, written in Python, using Google Translate for free! You can use Google Translate for free with this URL:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://translate.googleapis.com/translate_a/single?client=gtx&amp;sl=&lt;language_from&gt;&amp;tl=&lt;language_to&gt;&amp;dt=t&amp;q=&lt;text&gt;&quot;</span><br></pre></td></tr></table></figure><p>Here is <a href="https://translate.googleapis.com/translate_a/single?client=gtx&amp;sl=en&amp;tl=ru&amp;dt=t&amp;q=Hello">an example</a><br />So that was for this post, so please consider sharing!</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> projects </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World!</title>
       <link href="/Blog/2021/06/15/hello-world/"/>
       <url>/Blog/2021/06/15/hello-world/</url>
